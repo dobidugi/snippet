@@ -20,7 +20,8 @@
 		"semi": ["error", "always"],
 		"react/prop-types": "off",
 		"react-hooks/rules-of-hooks": "error",
-		"react-hooks/exhaustive-deps": "warn"
-	}
+		"react-hooks/exhaustive-deps": "warn",
+	  "max-len": [2, { "code": 120, "tabWidth": 4, "ignoreUrls": true }]
+  }
 }
 
