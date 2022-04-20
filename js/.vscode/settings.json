@@ -1,11 +1,109 @@
 {
+	"workbench.iconTheme": "material-icon-theme",
+	"terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+	"liveServer.settings.donotShowInfoMsg": true,
+	// "[javascript]": {
+	// 	"editor.defaultFormatter": "vscode.typescript-language-features"
+	// },
+	"liveServer.settings.CustomBrowser": "firefox",
+	"typescript.format.insertSpaceAfterTypeAssertion": true,
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"diffEditor.ignoreTrimWhitespace": false,
+	"sync.gist": "",
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"codesnap.transparentBackround": true,
+	"prettier.requirePragma": true,
+	"glassit.alpha": 220,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"terminal.external.osxExec": "iTerm.app",
+	"terminal.integrated.fontFamily": "monospace",
+	"editor.fontSize": 14,
+	"workbench.editorAssociations": {
+		"*.ipynb": "jupyter.notebook.ipynb"
+	},
+	"C_Cpp.updateChannel": "Insiders",
+	"code-runner.executorMap": {
+		"javascript": "node",
+		"java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+		"c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"php": "php",
+		"python": "python3 -u",
+		"perl": "perl",
+		"perl6": "perl6",
+		"ruby": "ruby",
+		"go": "go run",
+		"lua": "lua",
+		"groovy": "groovy",
+		"powershell": "powershell -ExecutionPolicy ByPass -File",
+		"bat": "cmd /c",
+		"shellscript": "bash",
+		"fsharp": "fsi",
+		"csharp": "scriptcs",
+		"vbscript": "cscript //Nologo",
+		"typescript": "ts-node",
+		"coffeescript": "coffee",
+		"scala": "scala",
+		"swift": "swift",
+		"julia": "julia",
+		"crystal": "crystal",
+		"ocaml": "ocaml",
+		"r": "Rscript",
+		"applescript": "osascript",
+		"clojure": "lein exec",
+		"haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+		"rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+		"racket": "racket",
+		"scheme": "csi -script",
+		"ahk": "autohotkey",
+		"autoit": "autoit3",
+		"dart": "dart",
+		"pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+		"d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+		"haskell": "runhaskell",
+		"nim": "nim compile --verbosity:0 --hints:off --run",
+		"lisp": "sbcl --script",
+		"kit": "kitc --run",
+		"v": "v run",
+		"sass": "sass --style expanded",
+		"scss": "scss --style expanded",
+		"less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+		"FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+	},
+	"code-runner.runInTerminal": true,
+	"terminal.integrated.defaultProfile.osx": "zsh",
+	"debug.javascript.defaultRuntimeExecutable": {
+		"pwa-node": "node"
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+
 	"editor.formatOnSave": true,
+	"prettier.tabWidth": 4,
+	"prettier.trailingComma": "all",
+	"prettier.useTabs": true,
+	"prettier.endOfLine": "auto",
+	"workbench.colorTheme": "Night Owl",
 	"[javascript]": { "editor.formatOnSave": true },
 	"eslint.alwaysShowStatus": true,
 	"files.autoSave": "onFocusChange",
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": true
 	},
-	"editor.rulers": [120]
-}
+	"editor.rulers": [120],
+	"emmet.includeLanguages": { "javascript": "javascriptreact" },
 
+	"reactSnippets.settings.prettierEnabled": true
+}
+g
