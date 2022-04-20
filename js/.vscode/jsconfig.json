@@ -1,0 +1,9 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./src",
+		"checkJs": true,
+		"jsx": "react"
+	}
+}
+// vscode quick fix에서 import가 안뜰떄 사용
+
